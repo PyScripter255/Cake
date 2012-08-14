@@ -1,4 +1,4 @@
-#Cake: Python web development: simplified
+#Cake: Python web development, simplified
 ##What is Cake?
 Cake is a command-line, cross platform tool to help ease development of python web applications.
 ##Usage
