@@ -34,21 +34,14 @@ class Cake(cmdln.Cmdln): # Main class, defines the tool
 		print "Done"
 	@cmdln.option("-p", "--port", help="Choose a port to be passed as an argument to the python file.")
 	def do_test(self, subcmd, opts, module="main.py"):
-		"""${cmd_name}: Tests your applicationby running the main python file. The file to test by default is main.py. You can define an optional file to test.
-
-    	Usage:
-              cake test [OPTIONAL MODULE]\n
-    	${cmd_option_list} """
-		os.system("python "+module+" "+str(opts.port))
-
-
+		"""${cmd_name}: Tests your application by running the main python file. The file to test by default is main.py. You can define an optional file to test.
+		Usage:
+		cake test [OPTIONAL MODULE]\n
+		${cmd_option_list}"""
+		if os.name == "nt":
+			os.system("Scripts\python.exe "+module+" "+str(opts.port))
+		else:
+			os.system("bin/python.exe "+module+" "+str(opts.port))			
 if __name__ == "__main__":
     cake = Cake()
     sys.exit( cake.main() )
-
-
-
-
-
-
-
