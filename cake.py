@@ -12,7 +12,7 @@ class Cake(cmdln.Cmdln): # Main class, defines the tool
     	${cmd_option_list} """# The help prompt
 		print "Creating Directory..."
 		os.system('mkdir'+' '+newApp)#Creates the app directory
-		os.system('python .'+os.sep+'virtualenv.py'+' '+newApp)# Makes the directory a virtualenv
+		os.system('virtualenv.py'+' '+newApp)# Makes the directory a virtualenv
 		framework = {None: 'web.py', # Defines the possible frameworks
 				 'web.py': 'web.py',
 			     'bottle':'bottle',
