@@ -17,4 +17,5 @@ Those frameworks have their own workflows, with scripts and projects, ect. Cake 
 You can install it from [here](https://github.com/downloads/PyScripter255/Cake/cake.zip) It works on Windows (the script "cake.py" works cross-platform. It says the executable works on Linux, but I couldn't get it to work (cakephp conflict). Will be fixed!). It's a crossplatform executable, just add the cake folder to your path.
 ##What's the license?
 Cake is currently public domain (that may change, but everything you make with cake will always be your own).
-
+##Documentation
+Right [here](https://github.com/PyScripter255/Cake/wiki/Tutorial) in the wiki.
