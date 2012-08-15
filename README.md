@@ -20,4 +20,3 @@ Those frameworks have their own workflows, with scripts and projects, ect. Cake 
 Cake is currently public domain (that may change, but everything you make with cake will always be your own).
 =======
 You can download the zip [here](https://github.com/downloads/PyScripter255/Cake/cake.zip). It's a crossplatform executable, just add the cake folder to your path.
->>>>>>> 1d04c7d2c5972d9d54ee08c26ae64e8b89d9330b
