@@ -14,7 +14,7 @@ The supported frameworks are: web.py, cherrypy, bottle, tornado, and flask.
 ##Why don't you support (Django, Turbogears, Web2py, webapp2)?
 Those frameworks have their own workflows, with scripts and projects, ect. Cake is designed to give a workflow to projects who **don't** have a set workflow, while leveraging the freedom those frameworks provide.
 ##Where can I get it?
-You can install it from [here](https://github.com/PyScripter255/Cake/downloads). It works on [Windows](https://github.com/downloads/PyScripter255/Cake/cake.zip) and [Linux](https://github.com/downloads/PyScripter255/Cake/LinuxCake.zip) . It's a crossplatform executable, just add the cake folder to your path.
+You can install it from [here](https://github.com/PyScripter255/Cake/downloads). It works on [Windows](https://github.com/downloads/PyScripter255/Cake/cake.zip) and [Linux](https://github.com/downloads/PyScripter255/Cake/LinuxCake.zip) . It's an executable, just add the cake folder to your path.
 ##What's the license?
 Cake is currently public domain (that may change, but everything you make with cake will always be your own).
 ##Documentation
